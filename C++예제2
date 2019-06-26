@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main(void)
+{
+	char name[100];
+	char number[100];
+
+	std::cout << "너의 이름은...: ";
+	std::cin >> name;
+
+	std::cout << "저기..실례지만...전화번호점..: ";
+	std::cin >> number;
+
+	std::cout << "이름: " << name << "\n전번: " << number;
+}
