@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main(void)
+{
+	char name[100];
+	char game[100];
+
+	std::cout << "니 이름 뭐냐: ";
+	std::cin >> name;
+
+	std::cout << "좋아하는 게임: ";
+	std::cin >> game;
+
+	std::cout << "내 이름은! " << name << " 할 짓 없어서 공부중이지 \n";
+	std::cout << "내가 즐겨하는 게임이란 말이다... " << game << " 하지만 오래하면 현타온다.,," << std::endl;
+}
