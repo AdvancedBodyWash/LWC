@@ -1,0 +1,24 @@
+#include <iostream>
+
+int main(void)
+{
+	int val1, val2, val3, val4, val5;
+
+	std::cout << "첫번째 숫자 ㄱ: ";
+	std::cin >> val1;
+
+	std::cout << "두번째 숫자 ㄱ: ";
+	std::cin >> val2;
+
+	std::cout << "세번째 숫자 ㄱ: ";
+	std::cin >> val3;
+
+	std::cout << "네번째 숫자 ㄱ: ";
+	std::cin >> val4;
+
+	std::cout << "다섯번째 숫자 ㄱ: ";
+	std::cin >> val5;
+
+	int result = val1 + val2 + val3 + val4 + val5;
+	std::cout << "결과: " << result;
+}
