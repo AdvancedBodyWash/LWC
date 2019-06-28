@@ -1,0 +1,36 @@
+#include <iostream>
+
+namespace bestcomtmpl
+{
+	void simplefunc(void);
+}
+
+namespace bestcomtmpl
+{
+	void prettyfunc(void);
+}
+
+namespace progcomtmpl
+{
+	void simplefunc(void);
+}
+
+int main()
+{
+	bestcomtmpl::simplefunc();
+}
+
+void bestcomtmpl::simplefunc(void)
+{
+	std::cout << "bestcom이 정의한 함수" << std::endl;
+	prettyfunc();
+	progcomtmpl::simplefunc();
+}
+void bestcomtmpl::prettyfunc(void)
+{
+	std::cout << "So pretty!" << std::endl;
+}
+void progcomtmpl::simplefunc(void)
+{
+	std::cout << "Progcom이 정의한 함수" << std::endl;
+}
