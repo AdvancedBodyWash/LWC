@@ -1,0 +1,17 @@
+#include <iostream>
+
+namespace hybrid
+{
+	void hybfunc(void)
+	{
+		std::cout << "매우 간단한 기능" << std::endl;
+		std::cout << "이름공간 하이브리드 안에" << std::endl;
+	}
+}
+
+int main()
+{
+	using hybrid::hybfunc;
+	hybfunc();
+	return 0;
+}
