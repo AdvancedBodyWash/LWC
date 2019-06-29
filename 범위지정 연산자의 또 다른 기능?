@@ -1,0 +1,8 @@
+int val=100;
+
+int simplefunc()
+{
+    int val = 20;
+    val+=3;
+    ::val+=7;
+}
