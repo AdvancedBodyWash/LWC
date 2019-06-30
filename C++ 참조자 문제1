@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+void reference(int& A)
+{
+	A++;
+}
+void reference2(int& a)
+{
+	a *= -1;
+}
+
+int main()
+{
+	int val = 20;
+	reference(val);
+	cout << val << endl;
+
+	reference2(val);
+	cout << val << endl;
+}
