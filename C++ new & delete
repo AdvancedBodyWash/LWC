@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+char * MakeStrAdr(int len)
+{
+	char * str = new char[len];
+	return str;
+}
+
+int main()
+{
+	char * str = MakeStrAdr(20);
+	strcpy(str, "난 정말 이 책을 왜 샀을까 ㅎㅎ~ ");
+	cout << str << endl;
+	delete[]str;
+	return 0;
+}
