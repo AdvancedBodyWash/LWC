@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	int num;
+
+	printf("정수를 입력: ");
+	scanf("%d",&num);
+
+	printf("변환된 아스키코드:%c", num);
+}
