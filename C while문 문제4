@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+	int num;                          
+	int i = 9;
+
+	printf("숫자를 입력: ");
+	scanf_s("%d", &num);
+
+	while (0 < i)
+	{
+		int result = 0;
+		result = num * i;
+
+		printf("%d*%d=%d \n", num,i,result);
+
+		i--;
+	}
+}
