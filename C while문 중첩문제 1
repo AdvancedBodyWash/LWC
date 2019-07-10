@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+	int num=0, i = 0, result = 0;
+
+	while (i < 5) //5번 실행
+	{
+		while (num <= 0) // num이 0이면 0이상 값이 나올때까지 재입력 요청
+		{
+			printf("정수를 입력(1미만 값x): ");
+			scanf_s("%d", &num);
+		}
+		result += num; //정수 합산
+		i++; //증감식
+		num = 0; //0으로 초기화해서 다시 입력받게함
+	}
+	printf("총합산:%d",result);
+}
+			
+	
