@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+	int result = 0, i = 0;
+	int num1, num2;
+
+	printf("입력할 정수의 수는?: ");
+	scanf_s("%d", &num1);
+
+	while (i++ < num1) {
+
+		printf("정수 입력: ");
+		scanf_s("%d", &num2);
+		result += num2;
+	}
+	printf("입력의 평균:%f \n", (double)result / num1);
+}
