@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+	int num;
+	printf("정수 입력: "); //10진수를 입력해 16진수로 변환
+	scanf_s("%d",&num);
+
+	printf("16진수로 변환:%x",num);
+}

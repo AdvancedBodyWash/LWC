@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+	int num;	//조건식에 대입할 값 몇번 반복할지 숫자로 결정
+
+	printf("숫자를 입력: ");
+	scanf_s("%d", &num);
+
+	int i = 0;		//초기값
+
+	while (num > i) //조건식 
+	{
+		printf("hello world \n");
+		i++;		//증감식
+	}
+}

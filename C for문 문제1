@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+	int result,num1, num2;
+	printf("두개의 정수 입력(정수 사이에 존재하는 값들을 합함): ");
+	scanf("%d %d", &num1, &num2);
+	
+	for (result=0; num1 <= num2; num1++) {
+		result += num1;
+		
+	}
+	printf("%d", result);
+}

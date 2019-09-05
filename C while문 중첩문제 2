@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+	int i = 0, j = 0;     //초기값
+
+	while (i < 5)           //조건식:5번 실행
+	{
+		while (j < i)        //조건식:j가 i보다 작을때 실행
+		{
+			printf("o ");
+			j++;              //j값 증가
+		}
+		j = 0;                //초기화
+		printf("* \n");
+		i++;                 //i값 증가
+	}
+}
+		
+	

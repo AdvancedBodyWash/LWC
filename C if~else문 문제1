@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+	int num;
+
+	for (num = 1; num < 100; num++) //1에서 100까지 반복
+	{
+		if (num % 7 == 0 || num % 9 == 0) // 7 또는 9의 배수를 나타내는 조건
+			printf("7 또는 9의 배수: %d \n",num);
+	}
+}

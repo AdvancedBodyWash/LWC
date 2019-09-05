@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+	int num1, num2, num3;
+	double result;
+
+	printf("국어 수학 영어의 성적: ");
+	scanf("%d %d %d", &num1, &num2, &num3);
+	result = (num1 + num2 + num3) / 3.0;
+	printf("평균: ");
+
+	if (result == 90.0)
+		printf("A \n");
+	else if (result == 80.0)
+		printf("B \n");
+	else if (result == 70.0)
+		printf("C \n");
+	else if (result == 60.0)
+		printf("D \n");
+	else 
+		printf("F \n");
+}
